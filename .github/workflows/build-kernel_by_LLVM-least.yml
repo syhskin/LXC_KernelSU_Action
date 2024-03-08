@@ -107,8 +107,8 @@ jobs:
              tar -C llvm-clang/ -xf clang1603.tar.xz
         fi
 
-        if [ ${{ env.LLVM_VERSION }} = 16.02 ]; then
-             wget -O clang1602.tar.xz https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.2/clang+llvm-16.0.2-x86_64-linux-gnu-ubuntu-22.04.tar.xz
+        if [ ${{ env.LLVM_VERSION }} = 11.0.1 ]; then
+             wget -O clang1602.tar.xz https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10.tar.xz
              tar -C llvm-clang/ -xf clang1602.tar.xz
         fi
 
